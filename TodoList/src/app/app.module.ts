@@ -4,9 +4,10 @@ import {FormsModule} from "@angular/forms";
 import { AutofocusModule } from 'angular-autofocus-fix';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-
 import { AppComponent } from './app.component';
 import { TodoComponent } from './components/todo/todo.component';
+import { environment } from 'src/environments/environment';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +17,7 @@ import { TodoComponent } from './components/todo/todo.component';
     BrowserModule,
     FormsModule,
     AutofocusModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

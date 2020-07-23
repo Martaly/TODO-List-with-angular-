@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
- /* firebase:  {
+  firebase:  {
     apiKey: "AIzaSyDq0WtnytRj3mCr5quJRauflirIGK1OURI",
   authDomain: "todolist-24466.firebaseapp.com",
   databaseURL: "https://todolist-24466.firebaseio.com",
@@ -13,7 +13,7 @@ export const environment = {
   messagingSenderId: "634116029471",
   appId: "1:634116029471:web:67e2fd7fee5987d489692a",
   measurementId: "G-YNPLT9TD9T"
-  }*/
+  }
 };
 
 /*
