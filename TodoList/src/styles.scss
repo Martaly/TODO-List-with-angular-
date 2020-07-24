@@ -1,1 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(69,34,59,1) 0%, rgba(25,33,46,1) 50%, rgba(69,34,59,1) 100%);}
