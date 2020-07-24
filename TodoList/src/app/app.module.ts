@@ -1,12 +1,12 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {FormsModule} from "@angular/forms";
-import { AutofocusModule } from 'angular-autofocus-fix';
+import { AutofocusFixModule } from 'ngx-autofocus-fix';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import {AppRoutingModule} from "/home/aly/Desktop/TODO-List-with-angular-/TodoList/src/app/app-routing.module";
 import { AppComponent } from './app.component';
 import { TodoComponent } from './components/todo/todo.component';
-import { environment } from 'src/environments/environment';
 
 @NgModule({
   declarations: [
@@ -15,9 +15,11 @@ import { environment } from 'src/environments/environment';
   ],
   imports: [
     BrowserModule,
+    AppRoutingModule,
     FormsModule,
-    AutofocusModule,
+    AutofocusFixModule.forRoot(),
     BrowserAnimationsModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
